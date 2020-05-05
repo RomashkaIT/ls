@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<apps provider="kraftful" unit="h">
+    <app title="Example 1">
+        <comment date="2020-02-12T12:12" rank="4">
+            <author name="David" id="david121" picture="..."/>
+            <content>Thx</content>
+        </comment>
+        <comment date="2020-02-12T12:12" rank="5">
+            <author name="Liza" id="david121" picture="..."/>
+            <content>Thanks</content>
+        </comment>
+    </app>
+    <app title="Example 2">
+        <comment date="2020-02-12T12:12" rank="4">
+            <author name="David" id="david121" picture="..."/>
+            <content>Great job</content>
+        </comment>
+        <comment date="2020-02-12T12:12" rank="5">
+            <author name="Liza" id="david121" picture="..."/>
+            <content>Awesome app</content>
+        </comment>
+    </app>
+</apps>
