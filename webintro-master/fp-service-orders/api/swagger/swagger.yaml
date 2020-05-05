@@ -75,29 +75,7 @@ paths:
           schema:
             $ref: "#/definitions/ErrorResponse"
 
-            /tea/stats:
-    x-swagger-router-controller: orders 
-    get:
-      description: List of tea cafe and tea spot places
-      # used as the method name of the controller
-      operationId: stats
-      parameters:
-        - name: date
-          in: query
-          description: Date to get the stats
-          required: false
-          type: string
-      responses:
-        "200":
-          description: Success
-          schema:
-              type: string
-              $ref: "#/definitions/Orders"
-              # responses may fall through to errors
-        default:
-          description: Error
-          schema:
-            $ref: "#/definitions/ErrorResponse"
+            
             
   /swagger:
     x-swagger-pipe: swagger_raw
